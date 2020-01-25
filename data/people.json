@@ -1,0 +1,70 @@
+{
+      "nodes": [
+       {
+         "name": "Donald John Trump", 
+         "link": "http://marvel.com/characters/54/spider-man",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_spiderman.png",
+         "size": 40000,
+         "links": ["Lev Parnas", "Rudy Giuliani"]
+       },
+       {
+         "name": "Lev Parnas", 
+         "link": "http://marvel.com/characters/9/captain_marvel",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png",
+         "size": 40000
+       },
+       {
+         "name": "Rudy Giuliani",
+         "link": "http://marvel.com/characters/25/hulk",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_hulk.png",
+         "size": 40000
+       },
+       {
+         "hero": "Black Widow", 
+         "name": "Natalia 'Natasha' Alianovna Romanova",
+         "link": "http://marvel.com/characters/6/black_widow",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_blackwidow.png",
+         "size": 40000
+       },
+       {
+         "hero": "Daredevil", 
+         "name": "Matthew Michael Murdock",
+         "link": "http://marvel.com/characters/11/daredevil",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_daredevil.png",
+         "size": 40000
+       },
+       {
+         "hero": "Wolverine", 
+         "name": "James Howlett",
+         "link": "http://marvel.com/characters/66/wolverine",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_wolverine.png",
+         "size": 40000
+       },
+       {
+         "hero": "Captain America", 
+         "name": "Steven Rogers",
+         "link": "http://marvel.com/characters/8/captain_america",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainamerica.png",
+         "size": 40000
+       },
+       {
+         "hero": "Iron Man", 
+         "name": "Anthony Edward 'Tony' Stark",
+         "link": "http://marvel.com/characters/29/iron_man",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_ironman.png",
+         "size": 40000
+       },
+       {
+         "hero": "THOR", 
+         "name": "Thor Odinson",
+         "link": "http://marvel.com/characters/60/thor",
+         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_thor.png",
+         "size": 40000
+       }
+     ],
+     "links": [
+       {"source": "Donald John Trump", "target": "Rudy Giuliani"},
+       {"source": "Rudy Giuliani", "target": "Lev Parnas"},
+       {"source": "Donald John Trump", "target": "Lev Parnas"}
+     ]
+     }
