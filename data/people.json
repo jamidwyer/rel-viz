@@ -5,66 +5,101 @@
          "link": "http://marvel.com/characters/54/spider-man",
          "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_spiderman.png",
          "size": 40000,
-         "links": ["Lev Parnas", "Rudy Giuliani"]
+         "links": ["Lev Parnas", "Rudy Giuliani"],
+         "id": 11464,
+         "url": "http://www.tvmaze.com/shows/11464/batman-unlimited",
+         "type": "politician",
+         "language": "English",
+         "status": "impeached",
+         "age": 80,
+         "startDate": "1986",
+         "officialSite": "https://www.youtube.com/channel/UCyu8StPfZWapR6rfW_JgqcA",
+         "weight": 1000,
+         "webChannel": {
+           "id": 21,
+           "name": "Twitter",
+           "country": null
+         },
+         "image": {
+           "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/38/96515.jpg",
+           "original": "http://static.tvmaze.com/uploads/images/original_untouched/38/96515.jpg"
+         },
+         "summary": "Grifted his way to the White House.",
+         "updated": 1529747391,
+         "_links": {
+           "self": {
+             "href": "http://api.tvmaze.com/shows/11464"
+           },
+           "previousepisode": {
+             "href": "http://api.tvmaze.com/episodes/896355"
+           }
+         }
        },
        {
-         "name": "Lev Parnas", 
-         "link": "http://marvel.com/characters/9/captain_marvel",
-         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png",
-         "size": 40000
-       },
-       {
-         "name": "Rudy Giuliani",
-         "link": "http://marvel.com/characters/25/hulk",
-         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_hulk.png",
-         "size": 40000
-       },
-       {
-         "hero": "Black Widow", 
-         "name": "Natalia 'Natasha' Alianovna Romanova",
+         "name": "Paul Manafort",
+         "id": 2,
          "link": "http://marvel.com/characters/6/black_widow",
          "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_blackwidow.png",
-         "size": 40000
+         "size": 40000,
+         "weight": 800
        },
        {
-         "hero": "Daredevil", 
-         "name": "Matthew Michael Murdock",
-         "link": "http://marvel.com/characters/11/daredevil",
-         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_daredevil.png",
-         "size": 40000
-       },
-       {
-         "hero": "Wolverine", 
-         "name": "James Howlett",
-         "link": "http://marvel.com/characters/66/wolverine",
-         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_wolverine.png",
-         "size": 40000
-       },
-       {
-         "hero": "Captain America", 
-         "name": "Steven Rogers",
+         "name": "Roger Stone",
+         "id": 3,
          "link": "http://marvel.com/characters/8/captain_america",
          "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainamerica.png",
-         "size": 40000
+         "weight": 600
        },
        {
-         "hero": "Iron Man", 
-         "name": "Anthony Edward 'Tony' Stark",
+        "name": "Rudy Giuliani",
+        "id": 4,
+        "link": "http://marvel.com/characters/25/hulk",
+        "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_hulk.png",
+        "size": 40000,
+        "weight": 900
+      },
+      {
+        "name": "Lev Parnas", 
+        "id": 5,
+        "link": "http://marvel.com/characters/9/captain_marvel",
+        "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png",
+        "size": 40000,
+        "weight": 300
+      },
+      {
+        "name": "Mike Pompeo",
+        "id": 6,
+        "link": "http://marvel.com/characters/60/thor",
+        "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_thor.png",
+        "weight": 400
+      },
+      {
+        "name": "Michael Flynn",
+        "id": 7,
+        "link": "http://marvel.com/characters/66/wolverine",
+        "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_wolverine.png",
+        "size": 40000,
+        "weight": 500
+      },
+      {
+        "name": "Vladimir Putin",
+        "id": 8,
+        "link": "http://marvel.com/characters/11/daredevil",
+        "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_daredevil.png",
+        "size": 200
+      },
+      {
+         "name": "Rick Perry",
+         "id": 9,
          "link": "http://marvel.com/characters/29/iron_man",
          "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_ironman.png",
-         "size": 40000
-       },
-       {
-         "hero": "THOR", 
-         "name": "Thor Odinson",
-         "link": "http://marvel.com/characters/60/thor",
-         "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_thor.png",
-         "size": 40000
+         "weight": 300
        }
      ],
      "links": [
-       {"source": "Donald John Trump", "target": "Rudy Giuliani"},
-       {"source": "Rudy Giuliani", "target": "Lev Parnas"},
-       {"source": "Donald John Trump", "target": "Lev Parnas"}
+        {"source": "Donald John Trump", "target": "Paul Manafort"},
+        {"source": "Donald John Trump", "target": "Rudy Giuliani"},
+        {"source": "Rudy Giuliani", "target": "Lev Parnas"},
+        {"source": "Donald John Trump", "target": "Lev Parnas"}
      ]
      }
