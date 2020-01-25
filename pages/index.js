@@ -20,14 +20,6 @@ console.log(props);
           <ForceGraphNode node={{ id: person.id, name: person.name }} fill="red" />
         ))}
       </ForceGraph>
-      {props.shows.map(person => {
-        person.links.map(link => 
-          (
-            <ForceGraphLink link={{ source: person.name, target: link }} />
-          )
-          )
-      }
-      )}
       <ForceGraphLink link={{ source: 'first-node', target: 'second-node' }} />
       <ul>
         <PersonLink name="Lev Parnas" />
