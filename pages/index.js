@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import {ForceGraph, ForceGraphNode, ForceGraphLink} from 'react-vis-force';
-import fetch from 'isomorphic-unfetch';
+import {ForceGraph, ForceGraphLink} from 'react-vis-force';
 import people from '../data/people.json';
+import ForceGraphNode from '../components/force-graph-node.js';
 
 const PersonLink = props => (
   <li>
@@ -12,24 +12,35 @@ const PersonLink = props => (
   </li>
 );
 
+const addLinks = person => {
+  {person.links ? person.links.map(link => {
+    console.log
+    return (
+    <ForceGraphLink link={{ source: person.id, target: link, strokeWidth: 2 }} strokeWidth={1} />
+    )
+    }) : null}
+};
+
 const Index = props => {
-console.log(props);
-console.log(people);
   return (
     <div>
-      <ForceGraph simulationOptions={{ height: 300, width: 300 }}>
-        {people.nodes.map(person => (
-          <ForceGraphNode node={{ id: person.id, name: person.name }} fill="red" />
-        ))}
+      <ForceGraph showLabels simulationOptions={{ height: 600, width: 600 }}>
+        {people.nodes.map(person => {
+          {addLinks(person)}
+          return (          
+            <ForceGraphNode key={person.id} node={{ id: person.id, name: person.name, label: person.name, image: person.img }} />
+        );
+        })}
+        {/* {people.links.map(l => {
+          console.log(l);
+          return (          
+            <ForceGraphLink link={{ source: 1, target: l }} strokeWidth={1} />
+        );
+        })} */}
+        <ForceGraphLink link={{ source: 1, target: 2, strokeWidth: 2 }} strokeWidth={1} />
       </ForceGraph>
-      <ForceGraphLink link={{ source: 'first-node', target: 'second-node' }} />
       <ul>
-        <PersonLink name="Lev Parnas" />
-        <PersonLink name="Donald Trump" />
-        <PersonLink name="Jared Kushner" />
-      </ul>
-      <ul>
-      {props.shows.map(person => (
+      {people.nodes.map(person => (
         <li key={person.id}>
           <Link href="/person/[name]" as={`/person/${person.name}`}>
             <a>{person.name}</a>
@@ -41,19 +52,8 @@ console.log(people);
 )};
   
 Index.getInitialProps = async function() {
-  const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
-  const data = await res.json();
-
-  console.log(`Show data fetched. Count: ${data.length}`);
-
-  console.log(data.map(entry => entry.show));
-
-  console.log(data);
-  console.log(people);
-
   return {
     props: [],
-    shows: data.map(entry => entry.show),
     people: people.nodes,
     renderTree: true,
   };
