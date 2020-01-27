@@ -40,7 +40,7 @@
       "id": 2,
       "links": [1, 3, 16, 17, 23],
       "link": "http://marvel.com/characters/6/black_widow",
-      "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_blackwidow.png",
+      "img":  "https://storage.googleapis.com/afs-prod/media/media:9955b8e3abef4aa4a4ad91dbd44126fe/800.jpeg",
       "status": "convicted",
       "size": 40000,
       "weight": 800
@@ -50,7 +50,7 @@
       "id": 3,
       "links": [1, 2, 32],
       "link": "http://marvel.com/characters/8/captain_america",
-      "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainamerica.png",
+      "img":  "https://storage.googleapis.com/afs-prod/media/media:60851908dab64a70a5cdaff8bb1d2d06/3000.jpeg",
       "status": "convicted",
       "weight": 600
     },
@@ -59,7 +59,7 @@
     "id": 4,
     "links": [1, 7],
     "link": "http://marvel.com/characters/8/captain_america",
-    "img":  "",
+    "img":  "http://a.abcnews.com/images/Politics/GTY_trump_ml_151201_4x3_992.jpg",
     "weight": 600
   },
   {
@@ -74,7 +74,7 @@
   {
     "name": "Donald Trump, Jr.",
     "id": 6,
-    "links": [1, 4],
+    "links": [1, 4, 47],
     "link": "http://marvel.com/characters/29/iron_man",
     "img":  "https://cdn-images-1.medium.com/max/800/0*6XhLAFa7laBgdk1L.jpg",
     "weight": 900
@@ -393,7 +393,7 @@
             "id": 44,
             "links": [1, 26, 49],
             "link": "http://marvel.com/characters/29/iron_man",
-            "img":  "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/12/12/Others/Images/2016-12-12/AP_120615036973.jpg",
+            "img":  "http://c-5uwzmx78pmca09x24eeex2ebzjquox2ekwu.g00.chicagotribune.com/g00/3_c-5eee.kpqkiowbzqjcvm.kwu_/c-5UWZMXPMCA09x24pbbx78x3ax2fx2feee.bzjquo.kwux2fquo-37n70274x2fbczjqvmx2fkb-x78ix78ilwx78wctwa-bzcux78-ildqamz-08959819-889x2f488x2f488f116x3fq98k.uizsx3dquiom_$/$/$/$/$/$",
             "weight": 300
           },
           {
@@ -425,7 +425,8 @@
             "id": 48,
             "links": [1, 44],
             "link": "http://marvel.com/characters/29/iron_man",
-            "img":  "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/12/12/Others/Images/2016-12-12/AP_120615036973.jpg",
+            "img":  "http://c-5uwzmx78pmca09x24eeex2ebzjquox2ekwu.g00.chicagotribune.com/g00/3_c-5eee.kpqkiowbzqjcvm.kwu_/c-5UWZMXPMCA09x24pbbx78x3ax2fx2feee.bzjquo.kwux2fquo-37n70274x2fbczjqvmx2fkb-x78ix78ilwx78wctwa-bzcux78-ildqamz-08959819-889x2f488x2f488f116x3fq98k.uizsx3dquiom_$/$/$/$/$/$",
+            "status": "convicted",
             "weight": 300
           },
           {
@@ -475,7 +476,41 @@
             "link": "http://marvel.com/characters/29/iron_man",
             "img":  "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/12/12/Others/Images/2016-12-12/AP_120615036973.jpg",
             "weight": 300
+          },
+          {
+            "name": "Anthony Kennedy",
+            "id": 55,
+            "links": [1, 9, 56],
+            "link": "http://marvel.com/characters/29/iron_man",
+            "img":  "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/12/12/Others/Images/2016-12-12/AP_120615036973.jpg",
+            "weight": 300
+          },
+          {
+            "name": "Justin Kennedy",
+            "id": 56,
+            "links": [1, 9, 55],
+            "link": "http://marvel.com/characters/29/iron_man",
+            "img":  "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/12/12/Others/Images/2016-12-12/AP_120615036973.jpg",
+            "weight": 300
+          },
+          {
+            "name": "Nikolai Gorokhov",
+            "id": 56,
+            "links": [20],
+            "link": "http://marvel.com/characters/29/iron_man",
+            "img":  "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/12/12/Others/Images/2016-12-12/AP_120615036973.jpg",
+            "status": "fell off the fourth floor of a building",
+            "weight": 300
+          },
+          {
+            "name": "Devin Nunes",
+            "id": 56,
+            "links": [1, 11],
+            "link": "http://marvel.com/characters/29/iron_man",
+            "img":  "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/12/12/Others/Images/2016-12-12/AP_120615036973.jpg",
+            "weight": 300
           }
+
 
 
       ],
